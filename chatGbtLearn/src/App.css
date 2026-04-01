@@ -40,3 +40,87 @@
 .read-the-docs {
   color: #888;
 }
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+
+.cube-wrapper{
+  margin-top:20px;
+}
+
+.cube{
+  width:100px;
+  height:100px;
+  background:#4a90e2;
+  margin-top:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:40px;
+  border-radius:10px;
+}
+
+.rotate{
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(360deg);
+  }
+}
+
+.ButtonContainer {
+  width: 350px;
+  height: 75px;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgb(10, 10, 10, 0.5);
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ButtonContainer button {
+  width: 120px;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+#history  {
+background-color: brown;
+}
+#redeem  {
+  background-color: green;
+}
+
+.hitoryBox {
+  width: 300px;
+  margin: 0 auto;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid green;
+  background-color: rgba(173, 28, 28, 0.192);
+}
+
+.redeemBox {
+    width: 343px;
+    height: 472px;
+    border-radius: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
